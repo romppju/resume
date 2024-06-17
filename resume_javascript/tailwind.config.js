@@ -7,7 +7,7 @@ export default {
         height: 'height',
       },
       backgroundImage: {
-        parallax: 'url(Norway_dark.jpg)',
+        mountains: `linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('src/assets/icons/Mountains.jpg')`,
       },
     },
   },
