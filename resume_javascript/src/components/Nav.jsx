@@ -4,7 +4,7 @@ import LinkedInIcon from '../assets/icons/LI-In-Bug.png'
 
 const NavLinks = ({ headerRef, workRef, eduRef, skillsRef }) => {
   const style =
-    'text-xl font-bold text-gray-700 mx-5 hover:-translate-y-0.5 hover:scale-105 duration-500'
+    'text-xl font-bold text-gray-700 mx-5 my-2 md:my-0 hover:-translate-y-0.5 hover:scale-105 duration-500'
 
   const handleScroll = (e, ref) => {
     e.preventDefault()
@@ -36,7 +36,7 @@ const NavLinks = ({ headerRef, workRef, eduRef, skillsRef }) => {
           Skills
         </a>
       </li>
-      <li className='mx-5 py-2 pl-1 md:py-0 md:pl-0'>
+      <li className='mx-5 my-4 pl-1 md:my-0 md:pl-0'>
         <a
           href='https://www.linkedin.com/in/jromppainen/'
           target='_blank'
@@ -45,7 +45,7 @@ const NavLinks = ({ headerRef, workRef, eduRef, skillsRef }) => {
           <img src={LinkedInIcon} alt='LinkedIn icon' className='h-6'></img>
         </a>
       </li>
-      <li className='mx-5 py-2 md:py-0'>
+      <li className='mx-5 my-4 md:my-0'>
         <a
           href='https://www.youtube.com/watch?v=-IOtI8w8wMM'
           target='_blank'
